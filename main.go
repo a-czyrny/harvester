@@ -358,12 +358,13 @@ func main() {
 	//	color.Cyan("                                                                  ")
 	color.Yellow("_____________________________________________version " + appVersion)
 	color.Cyan("   ")
+	color.Cyan("TESTING")
 
 	// Immedate calls to use for testing during development
 	// Search Facebook public posts using keywords in Social Harvest config
-	// go FacebookPublicMessagesByKeyword()
+	go FacebookPublicMessagesByKeyword()
 	// //Search Facebook public feeds using account ids in Social Harvest config
-	// go FacebookMessagesByAccount()
+	go FacebookMessagesByAccount()
 	// //Search Twitter using keywords in Social Harvest config
 	// go TwitterPublicMessagesByKeyword()
 	// go TwitterPublicMessagesByAccount()
@@ -371,8 +372,8 @@ func main() {
 	// go InstagramMediaByKeyword()
 	// go GooglePlusActivitieByKeyword()
 	// go GooglePlusActivitieByAccount()
-	// go HarvestAllContent()
-	// go HarvestAllAccounts()
+	go HarvestAllContent()
+	go HarvestAllAccounts()
 
 	//TODO: Continue with this...
 	//socialHarvest.Database.CreatePartitionTable("messages")
