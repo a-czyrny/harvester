@@ -18,8 +18,8 @@ package harvester
 
 import (
 	"github.com/SocialHarvest/harvester/lib/config"
-	"github.com/SocialHarvestVendors/google-api-go-client/googleapi/transport"
-	"github.com/SocialHarvestVendors/google-api-go-client/youtube/v3"
+	"google.golang.org/api/transport"
+	"google.golang.org/api/youtube/v3"
 	//"encoding/json"
 	"log"
 	"net/http"
