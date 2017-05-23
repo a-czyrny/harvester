@@ -18,8 +18,8 @@ package main
 
 import (
 	//"encoding/json"
-	"github.com/SocialHarvest/harvester/lib/config"
-	"github.com/SocialHarvest/harvester/lib/harvester"
+	"github.com/a-czyrny/harvester/tree/master/lib/config"
+	"github.com/a-czyrny/harvester/tree/master/lib/harvester"
 	"log"
 	"math"
 	"net/url"

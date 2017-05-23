@@ -19,7 +19,7 @@ package harvester
 import (
 	//"encoding/json"
 	"bytes"
-	"github.com/SocialHarvest/harvester/lib/config"
+	"github.com/a-czyrny/harvester/tree/master/lib/config"
 	geohash "github.com/SocialHarvestVendors/geohash-golang"
 	"github.com/SocialHarvestVendors/go-instagram/instagram"
 	"log"

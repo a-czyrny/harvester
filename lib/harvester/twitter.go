@@ -17,7 +17,7 @@
 package harvester
 
 import (
-	"github.com/SocialHarvest/harvester/lib/config"
+	"github.com/a-czyrny/harvester/tree/master/lib/config"
 	"github.com/SocialHarvestVendors/anaconda"
 	geohash "github.com/SocialHarvestVendors/geohash-golang"
 	"log"

@@ -18,7 +18,7 @@ package harvester
 
 import (
 	"github.com/SocialHarvest/geobed"
-	"github.com/SocialHarvest/harvester/lib/config"
+	"github.com/a-czyrny/harvester/tree/master/lib/config"
 	"github.com/SocialHarvest/sentiment"
 	"github.com/SocialHarvestVendors/anaconda"
 	"github.com/SocialHarvestVendors/go-instagram/instagram"

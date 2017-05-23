@@ -299,7 +299,7 @@ func setConfig(original bool) error {
 		bugsnag.Configure(bugsnag.Configuration{
 			APIKey:          socialHarvest.Config.Debug.Bugsnag.ApiKey,
 			ReleaseStage:    socialHarvest.Config.Debug.Bugsnag.ReleaseStage,
-			ProjectPackages: []string{"main", "github.com/SocialHarvest/harvester/*"},
+			ProjectPackages: []string{"main", "github.com/a-czyrny/harvester/tree/master/*"},
 			AppVersion:      appVersion,
 		})
 	}

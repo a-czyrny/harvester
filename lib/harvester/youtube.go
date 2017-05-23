@@ -17,7 +17,7 @@
 package harvester
 
 import (
-	"github.com/SocialHarvest/harvester/lib/config"
+	"github.com/a-czyrny/harvester/tree/master/lib/config"
 	"google.golang.org/api/transport"
 	"google.golang.org/api/youtube/v3"
 	//"encoding/json"
