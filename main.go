@@ -19,8 +19,8 @@ package main
 import (
 	"encoding/json"
 	"flag"
-	"github.com/SocialHarvest/harvester/lib/config"
-	"github.com/SocialHarvest/harvester/lib/harvester"
+	"github.com/a-czyrny/harvester/tree/master/lib/config"
+	"github.com/a-czyrny/harvester/tree/master/lib/harvester"
 	"github.com/SocialHarvestVendors/color"
 	"github.com/SocialHarvestVendors/go-json-rest/rest"
 	"github.com/bugsnag/bugsnag-go"
